@@ -19,12 +19,5 @@
       "src": "/(.*)",
       "dest": "/spelinx-frontend/$1"
     }
-  ],
-  "env": {
-    "NODE_ENV": "production",
-    "JWT_SECRET": "@jwt-secret",
-    "MONGO_URI": "@mongo-uri",
-    "FRONTEND_URL": "https://$VERCEL_URL",
-    "ALLOWED_ORIGINS": "https://$VERCEL_URL"
-  }
+  ]
 }
